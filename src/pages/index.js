@@ -19,13 +19,7 @@ export default function Home() {
         <div className={styles.loginImg}>
 
         </div>
-        {/* <Image 
-          className={styles.loginImg}
-          src='/images/buildings.jpg'
-          height={2000}
-          width={2000}
-          alt="Fundo com prédios"
-        /> */}
+        
         <section className={styles.login}>
           <Image 
             className={styles.locker}
