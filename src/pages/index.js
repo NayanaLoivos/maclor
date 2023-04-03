@@ -3,10 +3,13 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import { navigate } from '../../public/support'
 
 const inter = Inter({ subsets: ['latin']});
 
 export default function Home() {
+
+  
   return (
     <>
       <Head>
@@ -56,6 +59,7 @@ export default function Home() {
           <button
             className={`${styles.loginButton} ${inter.className}`}
             type='submit'
+            onClick={navigate('/dashboard')}
           >
           LOGIN</button>
           
