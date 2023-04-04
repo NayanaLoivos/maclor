@@ -4,6 +4,7 @@ import ClientesHeader from "../../components/Header/ClientesHeader"
 import Link from "next/link"
 
 
+
 export default function DashboardClientes () {
 
 
@@ -33,6 +34,33 @@ export default function DashboardClientes () {
                                     className={styles.searchBar}
                                 />
                             </div>
+                            <table className={styles.table}>
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>E-mail</th>
+                                        <th>CPF</th>
+                                        <th>Qtd. Imóveis</th>
+                                        <th colSpan={2}>Edição</th>
+                                    </tr>
+                                    <tr>
+                                        <td>João da Silva</td>
+                                        <td>jaoaodasilva@gmail.com</td>
+                                        <td>001.002.003-04</td>
+                                        <td>2</td>
+                                        <td>
+                                            <img src="/images/trash-bin.svg"/>
+                                        </td>
+                                        <td>
+                                            <Link href="cadastro-clientes">
+                                                <img src="/images/edit.svg"/>
+                                                
+                                            </Link>
+                                        </td>
+                                    </tr>
+                                    
+                                </thead>
+                            </table>
                             
                         </div>
                     </div>

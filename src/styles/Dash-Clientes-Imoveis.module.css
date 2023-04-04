@@ -57,4 +57,19 @@
     
 }
 
+.table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.table th{
+    border: 1px solid #756D6D;
+    
+}
+
+.table td{
+    text-align: center;
+    border: 1px solid #756d6d7e;
+    padding: 5px;
+}
 
