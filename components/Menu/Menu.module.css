@@ -27,23 +27,27 @@
     background-color: #EEEEEE;
     width: 100%;
     display: none;
+    flex-direction: column;
+    align-items: center;
 }
 
-.options h5{
+.options a{
     font-weight: 400;
+    text-decoration: none;
+    color: #5e5e5e;
+    margin: 3px 0;
+    font-size: 14px;
+    
 }
 
-.options h5:hover{
+.options a:hover{
     cursor: pointer;
-    color: #636262;
+    color: #08BFCF;
 }
 
-#financeiro{
+#financeiro a{
+    font-weight: 300;
     font-size: 12px;
-}
-
-#financeiro h5{
-    font-weight: 500;
 }
 
 

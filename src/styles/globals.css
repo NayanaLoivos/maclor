@@ -16,7 +16,7 @@ body{
 
 .menu-bar{
     height: 100lvh;
-    width: 17%;
+    width: 18%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow: 1px 1px 5px 1px #888888;
@@ -24,5 +24,6 @@ body{
 
 .content{
     width: 100%;
+    margin: 2% ;
 }
 

@@ -1,22 +1,35 @@
 import styles from './Menu.module.css'
 import Image from 'next/image'
+import Link  from 'next/link';
 
 export default function Menu () {
 
     const handleClick = (e) =>{
         const content = e.target.nextElementSibling;
 
-        content.style.display === 'block' ? content.style.display ='none' : content.style.display ='block'
+        content.style.display === 'flex' ? content.style.display ='none' : content.style.display ='flex';
+
+        const categoryElements = document.getElementsByClassName('categories');
+
+        for(let category of categoryElements){
+            category.innerHTML !== e.target.innerHTML && category.nextElementSibling.style.display === 'none';
+            console.log(e.target.innerHTML)
+        }
+
     }
 
     return(
         <>
-            <Image 
-                src="/images/logo.jpg"
-                width={500}
-                height={500}
-                className={styles.logo}
-            />
+            <Link href="/dashboard">
+                <Image 
+                    src="/images/logo.jpg"
+                    width={500}
+                    height={500}
+                    className={styles.logo}
+                    alt="company logo"
+                /> 
+            </Link>
+            
 
             <nav className={styles.menu}>
 
@@ -24,32 +37,33 @@ export default function Menu () {
 
                 <h4 className='categories' onClick={handleClick}>Clientes</h4>
                 <div className={styles.options}>
-                    <h5>Cadastrar Clientes</h5>
-                    <h5>Vincular Imóveis</h5>
-                    <h5>Listar Documentação</h5>
+                    <Link href="/dashboard-clientes"> Dashboard Clientes</Link>
+                    <Link href="">Cadastrar Clientes</Link> 
+                    <Link href="">Vincular Imóveis</Link>
+                    <Link href="">Listar Documentação</Link>
                 </div>
 
                 <h4 className='categories' onClick={handleClick}>Imóveis</h4>
                 <div className={styles.options}>
-                    <h5>Cadastrar imóveis</h5>
-                    <h5>Vincular Clientes</h5>
+                    <Link href="">Cadastrar imóveis</Link>
+                    <Link href="">Vincular Clientes</Link>
                 </div>
 
                 <h4 className='categories' onClick={handleClick}>Controle Financeiro</h4>
                 <div className={styles.options} id={styles.financeiro}>
-                    <h5>Resumos das Atividades Mensais</h5>
-                    <h5>Relatórios de Pendências</h5>
-                    <h5>Detalhamento Por Cliente</h5>
-                    <h5>Histórico dos Imóveis</h5>
-                    <h5>Relatório de Custos Adicionais</h5>
+                    <Link href="">Resumos das Atividades Mensais</Link>
+                    <Link href="">Relatórios de Pendências</Link>
+                    <Link href="">Detalhamento Por Cliente</Link>
+                    <Link href="">Histórico dos Imóveis</Link>
+                    <Link href="">Relatório de Custos Adicionais</Link>
                 </div>
 
                 <h4 className='categories' onClick={handleClick}>Contratos</h4>
                 <div className={styles.options}>
-                    <h5>Gerar Contratos</h5>
-                    <h5>Situação do Contrato</h5>
-                    <h5>Cadastrar Ocorrências</h5>
-                    <h5>Gerar Ocorrências</h5>
+                    <Link href="">Gerar Contratos</Link>
+                    <Link href="">Situação do Contrato</Link>
+                    <Link href="">Cadastrar Ocorrências</Link>
+                    <Link href="">Gerar Ocorrências</Link>
                 </div>
             </nav>
         </>

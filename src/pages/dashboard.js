@@ -10,8 +10,8 @@ export default function Dashboard () {
           <Menu />
         </section>
         
-        <section className="content">
-          <h1>Dashboard</h1>
+        <section className="content" id={styles.dashboard}> 
+          <img src="/images/under-construction.png" className={styles.construction} alt="under construction"/>
         </section>
         
       </main>
