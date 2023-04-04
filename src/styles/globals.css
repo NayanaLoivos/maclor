@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:wght@400;700&display=swap');
+
 html,
 body{
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
+
+
+
+.content-ctr{
+    display: flex;
+
+}
+
+.menu-bar{
+    height: 100lvh;
+    width: 17%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.content{
+    width: 100%;
+}
+

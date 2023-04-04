@@ -3,12 +3,13 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
-import { navigate } from '../../public/support'
+
 
 const inter = Inter({ subsets: ['latin']});
 
 export default function Home() {
 
+  
   
   return (
     <>
@@ -56,12 +57,13 @@ export default function Home() {
             placeholder='********************'
           />
 
-          <button
+          <Link
             className={`${styles.loginButton} ${inter.className}`}
             type='submit'
-            onClick={navigate('/dashboard')}
+            href='/dashboard'
+            
           >
-          LOGIN</button>
+          LOGIN</Link>
           
           <Link 
             className={`${inter.className} ${styles.forgotPassword}`}
