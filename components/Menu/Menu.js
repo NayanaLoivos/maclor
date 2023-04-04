@@ -11,10 +11,10 @@ export default function Menu () {
 
         const categoryElements = document.getElementsByClassName('categories');
 
-        for(let category of categoryElements){
-            category.innerHTML !== e.target.innerHTML && category.nextElementSibling.style.display === 'none';
-            console.log(e.target.innerHTML)
-        }
+        // for(let category of categoryElements){
+        //     category.innerHTML !== e.target.innerHTML && category.nextElementSibling.style.display === 'none';
+        //     console.log(e.target.innerHTML)
+        // }
 
     }
 
@@ -37,8 +37,8 @@ export default function Menu () {
 
                 <h4 className='categories' onClick={handleClick}>Clientes</h4>
                 <div className={styles.options}>
-                    <Link href="/dashboard-clientes"> Dashboard Clientes</Link>
-                    <Link href="">Cadastrar Clientes</Link> 
+                    <Link href="/clientes/dashboard-clientes"> Dashboard Clientes</Link>
+                    <Link href="/clientes/cadastro-clientes">Cadastrar Clientes</Link> 
                     <Link href="">Vincular Imóveis</Link>
                     <Link href="">Listar Documentação</Link>
                 </div>

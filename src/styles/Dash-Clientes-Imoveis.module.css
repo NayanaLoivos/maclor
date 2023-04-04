@@ -1,15 +1,5 @@
-.content{
-    margin: 0 10px 20px 10px;
-}
 
-.content h1{
-    font-size: 32px;
-    font-weight: 500;
-}
 
-.formCtr{
-    margin: 0 5%;
-}
 
 .interaction{
     display: flex;
@@ -62,8 +52,11 @@
     border-collapse: collapse;
 }
 
+
+
 .table th{
     border: 1px solid #756D6D;
+    font-size: 14px;
     
 }
 
@@ -71,5 +64,10 @@
     text-align: center;
     border: 1px solid #756d6d7e;
     padding: 5px;
+    font-size: 14px;
+}
+
+.table img{
+    width: 18px;
 }
 

@@ -11,19 +11,31 @@ body{
 
 .content-ctr{
     display: flex;
-
+    
 }
 
 .menu-bar{
     height: 100lvh;
-    width: 18%;
+    width: 19%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow: 1px 1px 5px 1px #888888;
+    position: fixed;
+    
 }
 
 .content{
     width: 100%;
-    margin: 2% ;
+    margin: 0 20px 20px 22%;
+}
+
+
+.content h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.formCtr{
+    margin: 0 5%;
 }
 

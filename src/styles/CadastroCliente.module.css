@@ -1,0 +1,147 @@
+.cadastro label{
+    font-size: 14px;
+    margin-left: -40px;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.radio input[type=radio]{
+    accent-color: rgb(61, 61, 97);
+
+}
+
+.dados{
+    margin: 20px 0px 0 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inputCtr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.inputCtr p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dados input{
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #9B9A9A;
+    padding-left: 5px;
+}
+
+.dados select{
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #9B9A9A;
+    padding-left: 5px;
+    color: #9B9A9A;
+}
+
+.nome{
+    width: 270px;
+}
+
+.orgao{
+    width: 100px;
+}
+
+.email{
+    width: 320px;
+}
+
+.contato{
+    width: 250px;
+}
+
+.estadoCivil{
+    width: 150px;
+}
+
+.division{
+    display: flex;
+    
+}
+
+.division h2{
+    font-size: 15px;
+    width: 20%;
+    font-weight: 500;
+    text-shadow: 1px 1px #9B9A9A;
+    margin: 0;
+}
+
+.division img{
+    width: 80%;
+}
+
+.documents{
+    background-image: url('/images/upload.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-position: bottom 5px right 10px;
+    background-size: 20px;
+    width: 200px;
+}
+
+.documents:hover{
+    cursor: pointer;
+}
+
+.inputCtr img{
+    margin-top: -24px;
+    margin-left: 145px;
+}
+
+.inputCtr img:hover{
+    cursor: pointer;
+}
+
+.warning{
+    width: 100%;
+    padding-right: 60px;
+}
+
+.cadastro button{
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.cadastro button:hover{
+    cursor: pointer;
+}
+
+.cancel{
+    background-color: #F5AAAA;
+    background-image: url('/images/button-cancel.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 13px left 10px;
+    background-size: 15px;
+}
+
+.save{
+    background-color: #7AAFFF;
+    background-image: url('/images/button-save.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 13px left 13px;
+    background-size: 15px;
+}

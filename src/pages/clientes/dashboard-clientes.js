@@ -1,6 +1,6 @@
-import Menu from "../../components/Menu/Menu"
-import styles from "../styles/Dash-Clientes-Imoveis.module.css"
-import ClientesHeader from "../../components/Header/ClientesHeader"
+import Menu from "../../../components/Menu/Menu"
+import styles from "../../styles/Dash-Clientes-Imoveis.module.css"
+import ClientesHeader from "../../../components/Header/ClientesHeader"
 import Link from "next/link"
 
 
@@ -21,7 +21,7 @@ export default function DashboardClientes () {
                     <div className={styles.content}>
                         <h1>Clientes</h1>
 
-                        <div className={styles.formCtr}>
+                        <div className="formCtr">
 
                             <div className={styles.interaction}>
                                 <div className={styles.buttons}>
