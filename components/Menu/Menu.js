@@ -39,7 +39,7 @@ export default function Menu () {
                 <div className={styles.options}>
                     <Link href="/clientes/dashboard-clientes"> Dashboard Clientes</Link>
                     <Link href="/clientes/cadastro-clientes">Cadastrar Clientes</Link> 
-                    <Link href="">Vincular Imóveis</Link>
+                    <Link href="/clientes/vincular-imoveis">Vincular Imóveis</Link>
                     <Link href="">Listar Documentação</Link>
                 </div>
 

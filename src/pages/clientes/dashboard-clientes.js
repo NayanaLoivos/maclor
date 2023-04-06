@@ -24,17 +24,17 @@ export default function DashboardClientes () {
                         <div className="formCtr">
 
                             <div className={styles.interaction}>
-                                <div className={styles.buttons}>
-                                    <Link href="/adicionar-cliente">+ Adicionar</Link>
-                                    <Link href="/vincular-imovel">+ Vincular Imóveis</Link>
+                                <div className="buttons">
+                                    <Link href="/clientes/cadastro-clientes">+ Adicionar</Link>
+                                    <Link href="/clientes/vincular-imoveis">+ Vincular Imóveis</Link>
                                 </div>
                                 <input 
                                     type="text" 
                                     placeholder="Pesquisar" 
-                                    className={styles.searchBar}
+                                    className='searchBar'
                                 />
                             </div>
-                            <table className={styles.table}>
+                            <table className="table">
                                 <thead>
                                     <tr>
                                         <th>Nome</th>
@@ -52,7 +52,7 @@ export default function DashboardClientes () {
                                             <img src="/images/trash-bin.svg"/>
                                         </td>
                                         <td>
-                                            <Link href="cadastro-clientes">
+                                            <Link href="/clientes/cadastro-clientes">
                                                 <img src="/images/edit.svg"/>
                                                 
                                             </Link>

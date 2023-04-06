@@ -3,56 +3,12 @@
     margin-left: -40px;
 }
 
-.radio{
-    display: flex;
-    align-items: center;
-    width: 300px;
-    justify-content: space-between;
-}
-
-.radio input[type=radio]{
-    accent-color: rgb(61, 61, 97);
-
-}
-
 .dados{
     margin: 20px 0px 0 0px;
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     flex-wrap: wrap;
-}
-
-.inputCtr{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-}
-
-.inputCtr p{
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.dados input{
-    margin-top: 5px;
-    height: 25px;
-    border-radius: 10px;
-    border-style: none;
-    border: 1px solid #9B9A9A;
-    padding-left: 5px;
-}
-
-.dados select{
-    margin-top: 5px;
-    height: 25px;
-    border-radius: 10px;
-    border-style: none;
-    border: 1px solid #9B9A9A;
-    padding-left: 5px;
-    color: #9B9A9A;
 }
 
 .nome{
@@ -77,6 +33,8 @@
 
 .division{
     display: flex;
+    align-items: center;
+    
     
 }
 
@@ -90,6 +48,11 @@
 
 .division img{
     width: 80%;
+    
+}
+
+#acesso img{
+    margin-right: 30px;
 }
 
 .documents{
@@ -105,12 +68,12 @@
     cursor: pointer;
 }
 
-.inputCtr img{
+.eye{
     margin-top: -24px;
     margin-left: 145px;
 }
 
-.inputCtr img:hover{
+.eye:hover{
     cursor: pointer;
 }
 
