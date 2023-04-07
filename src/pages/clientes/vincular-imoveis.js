@@ -86,16 +86,13 @@ export default function VincularImoveis () {
                                     <th>Nome</th>
                                     <th>Imóvel Vinculado</th>
                                     <th>Inscrição do Imóvel</th>
-                                    <th>Gerar Contrato</th>
                                     <th colSpan={2}>Edição</th>
+                                    <th>Gerar Contrato</th>
                                 </tr>
                                 <tr>
                                     <td>João da Silva</td>
                                     <td>Rua Aurora, 25</td>
                                     <td>XXXXXXXXXXXXX</td>
-                                    <td id={style.generateContract}>
-                                        <img src="/images/generate-contract.svg"/>
-                                    </td>
                                     <td>
                                         <img src="/images/trash-bin.svg"/>
                                     </td>
@@ -104,6 +101,9 @@ export default function VincularImoveis () {
                                             <img src="/images/edit.svg"/>
                                             
                                         </Link>
+                                    </td>
+                                    <td id={style.generateContract}>
+                                        <img src="/images/generate-contract.svg"/>
                                     </td>
                                 </tr>
                                 

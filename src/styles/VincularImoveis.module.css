@@ -35,3 +35,7 @@
 #generateContract{
     width: 100px;
 }
+
+#generateContract img:hover{
+    cursor: pointer;
+}

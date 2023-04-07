@@ -108,3 +108,34 @@
     background-position: bottom 13px left 13px;
     background-size: 15px;
 }
+
+.endereco{
+    width: 400px;
+}
+
+.endNumero{
+    width: 60px;
+}
+
+.cep{
+    width: 100px;
+}
+
+.cidade{
+    width: 400px;
+}
+
+.estado{
+    width: 100px;
+}
+
+
+.isFiador{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    }
+
+.isFiador label{
+    margin: 0;
+}
