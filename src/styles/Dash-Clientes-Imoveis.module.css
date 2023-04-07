@@ -1,39 +1,16 @@
-
-
-
 .interaction{
     display: flex;
     justify-content: space-between;
-    
+        
 }
-
-.buttons{
-    display: flex;
-    gap: 20px;
-    
-}
-
-.table{
-    margin-top: 30px;
-    border-collapse: collapse;
+.interaction button{
+    font-size: 16px;
+    background-image: url('/images/gerar-ocorrencia.svg');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: bottom 8px left 5px;
 }
 
 
 
-.table th{
-    border: 1px solid #756D6D;
-    font-size: 14px;
-    
-}
-
-.table td{
-    text-align: center;
-    border: 1px solid #756d6d7e;
-    padding: 5px;
-    font-size: 14px;
-}
-
-.table img{
-    width: 18px;
-}
 

@@ -27,6 +27,7 @@ export default function DashboardClientes () {
                                 <div className="buttons">
                                     <Link href="/clientes/cadastro-clientes">+ Adicionar</Link>
                                     <Link href="/clientes/vincular-imoveis">+ Vincular Imóveis</Link>
+                                    <button>Gerar Ocorrência</button>
                                 </div>
                                 <input 
                                     type="text" 
